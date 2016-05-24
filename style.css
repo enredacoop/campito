@@ -342,15 +342,15 @@ body#home_two .special_offer_main {
 5.					start welcome area CSS
 -----------------------------------------------------------*/
 
-body#home_one .welcome .section_description {
+body#home_one .welcome .section_description, body#accomodation_page .welcome .section_description {
   padding: 0 20% 43px;
   text-align: center;
 }
-body#home_one .welcome .section_description p{
+body#home_one .welcome .section_description p, body#accomodation_page .welcome .section_description p {
 	font-size: 16px;
 	font-family: 'Karla', sans-serif;
 }
-body#home_one .welcome .room_media, .accomodation_single_room .room_media, body#room_detail_page .welcome .room_media {
+body#home_one .welcome .room_media, body#accomodation_page .welcome .room_media, .accomodation_single_room .room_media, body#room_detail_page .welcome .room_media {
   margin-bottom: 28px;
   text-align: center;
 }
@@ -430,16 +430,16 @@ body#home_one .single_wrapper_details .single_room_cost .btn:hover, body#accomod
 body#home_one .welcome .room_media a, .accomodation_single_room .room_media a {
   display: block;
 }
-body#home_one .welcome .left_room_title > h6, .accomodation_single_room .left_room_title > h6 {
+body#home_one .welcome .left_room_title > h6, body#accomodation_page .welcome .left_room_title > h6,  .accomodation_single_room .left_room_title > h6 {
   font-family: "Lora",serif;
   font-size: 18px;
   text-transform: none;
 }
-body#home_one .welcome .left_room_title > p, .accomodation_single_room .left_room_title > p {
+body#home_one .welcome .left_room_title > p,body#accomodation_page .welcome .left_room_title > p, .accomodation_single_room .left_room_title > p {
 	font-family: "Lora",serif;
   	font-size: 18px;
 }
-body#home_one .welcome .left_room_title > p > span, .accomodation_single_room .left_room_title > p > span {
+body#home_one .welcome .left_room_title > p > span,body#accomodation_page .welcome .left_room_title > p > span, .accomodation_single_room .left_room_title > p > span {
 	font-size: 11px;
 }
 

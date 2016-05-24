@@ -47,5 +47,11 @@
   "contact": {
   	"phone": "Teléfono",
   	"email": "Correo electrónico"
+  },
+  "hostal": {
+    "roomlist": "Habitaciones en el hostal",
+    "roomdesc": "Nuestras habitaciones"
+
   }
+
 }
