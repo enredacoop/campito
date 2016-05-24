@@ -3,8 +3,50 @@
     "name": "i18next"
   },
   "nav": {
-    "home": "Home",
+    "home": "Inicio",
     "hostal": "Hostal",
-    "info": "info"
+    "house": "Casas Rurales",
+    "res": "Restaurante"
+  },  
+  "slides": {
+  	"explore": "Mas info",
+  	"rural": "Viviendas rurales"
+  },
+  "welcome": {
+  	"welcome_camp": "Bienvenidos a Hostal Campito",
+  	"description_camp": "Campito es un edificio de nueva construcción en el centro histórico, a sólo cuatro minutos a pie de la playa. Con un diseño moderno y funcional, ofrecemos a nuestros clientes una buena localización.",
+  	"welcome_atl": "Bienvenidos a Vivienda Rural Atlántico Sur",
+  	"description_atl": "Un espacio singular cerca del puerto pesquero y de los pinares de Roche. El lugar idóneo para conocer la zona en familia. Cada espacio es independiente y garantiza su relajación y privacidad. El estilo de las viviendas evoca a los cortijos antiguos andaluces, con techos de tejas a dos aguas,casas de una sola planta con techos altos y un porche que enlaza casa y jardín." ,
+  	"welcome_res": "Bienvenidos a Restaurante Campito" 
+  },
+  "rooms": {
+  	"night": "noche",
+  	"book": "Reservar"
+  },
+  "rooms_names": {
+  	"camp_standard": "Habitación estándar",
+  	"camp_comfort": "Habitación confort",
+  	"camp_quadruple": "Habitación cuádruple",
+  	"camp_single": "Habitación individual",
+  	"camp_superior": "Habitación superior",
+  	"camp_triple": "Habitación triple",
+  	"rural_6": "Vivienda rural 6 personas",
+  	"rural_2": "Vivienda rural 2 personas",
+  	"rural_4": "Vivienda rural 4 personas",
+  	"rural_8": "Vivienda rural 8 personas"
+  },
+  "services": {
+  	"serv": "Servicios adicionales Hostal Campito",
+  	"res": "Restaurante",
+  	"res_info": "El Restaurante Campito se localiza en la planta baja del establecimiento, tiene mesas interiores y exteriores en terraza, todos los productos se cocinan en un horno Josper de carbón.",
+  	"park": "Parking",
+  	"park_info": "El Hostal Campito dispone de plazas de garaje a 3 minutos andando del establecimiento, el precio es de 10€ al dia, para reservar hay que solicitarlo previamente.",
+  	"hours": "Horario: 19:00-22:00",
+  	"charge": "Precio: 10€"
+  },
+  "contact": {
+  	"phone": "Teléfono",
+  	"email": "Correo electrónico"
   }
+
 }
