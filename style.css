@@ -111,7 +111,7 @@ a:hover{
   top: 0;
   width: 10000%;
 }
-body#home_one .emergency_number, body#home_one .emergency_number::after{
+body#home_one .emergency_number, body#home_one .emergency_number::after, body#accomodation_page .emergency_number, body#accomodation_page .emergency_number::after {
 	background: #3ac4fa none repeat scroll 0 0;
 }
 .mainmenu .nav.navbar-nav > li > a {
@@ -413,11 +413,14 @@ body#home_one .single_wrapper_details .single_room_cost p span, body#accomodatio
 }
 body#home_one .single_wrapper_details .single_room_cost .btn, body#accomodation_page .single_wrapper_details .single_room_cost .btn {
 	border: none;
-	border-left: 1px solid #444;
-	border-top: 1px solid #444;
+	border: 1px solid #444;
+	color: #444;
+	    margin-top: 1em;
+	
+	/*border-top: 1px solid #444;
 	color: #444;
 	margin-bottom: -74px;
-	margin-right: -23px;
+	margin-right: -23px;*/
 }
 body#home_one .single_wrapper_details .single_room_cost .btn:hover, body#accomodation_page .single_wrapper_details .single_room_cost .btn:hover{
 	background: #444;
@@ -1203,7 +1206,7 @@ body#room_detail_page .customer_comment{
 	border: 2px solid #9d9d9d;
 }
 .gallery_page .single_room_wrapper .dif_room_media img {
-	height: 213px;
+/*	height: 213px; */
 	width: auto;
 }
 .gallery_page .lslide.active > img {

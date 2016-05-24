@@ -8,6 +8,7 @@ $(document).ready(function(){
       $('.container').i18n();
       $('.text').i18n();
       $('.info').i18n();
+       $('.main_slider_area').i18n();
    
           
   });
