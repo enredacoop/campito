@@ -947,7 +947,7 @@ body#about_us_page .single_facilities_name > a.btn {
 body#about_us_page .about_us_thumb > p{
 	margin-top: 45px;
 }
-body#about_us_page .single_staff .uk-overlay-background, body#staff_page .single_staff .uk-overlay-background, body#gallery_page .room_wrapper .uk-overlay-background{
+body#about_us_page .single_staff .uk-overlay-background, body#staff_page .single_staff .uk-overlay-background, .gallery_page .room_wrapper .uk-overlay-background{
 	background: rgba(254, 109, 109, 0.8) none repeat scroll 0 0;
 	padding: 30px;
 	-webkit-transition: 0.6s;
@@ -1177,20 +1177,20 @@ body#room_detail_page .customer_comment{
 18. 					start gallery page CSS
 -----------------------------------------------------------*/
 
-body#gallery_page .breadcrumb_main_area, body#booking_page .breadcrumb_main_area, body#blog_page .breadcrumb_main_area{
+.gallery_page .breadcrumb_main_area, body#booking_page .breadcrumb_main_area, body#blog_page .breadcrumb_main_area{
 	background: url(img/gallery-breadcrumb.jpg) no-repeat center center / cover #000000;
 	position: relative;
 }
-body#gallery_page .accomodation_single_room .room_media{
+.gallery_page .accomodation_single_room .room_media{
 	margin-bottom: 30px;
 }
-body#gallery_page .other_room .nav-tabs{
+.gallery_page .other_room .nav-tabs{
 	border-bottom: 0px;
 }
-body#gallery_page .other_room ul.nav-tabs > li{
+.gallery_page .other_room ul.nav-tabs > li{
 	margin-bottom: 0px;
 }
-body#gallery_page .other_room ul.nav-tabs > li > a{
+.gallery_page .other_room ul.nav-tabs > li > a{
 	border-radius: 0;
 	color: #313a45;
 	font-weight: 700;
@@ -1199,14 +1199,14 @@ body#gallery_page .other_room ul.nav-tabs > li > a{
 	border: 2px solid #fff;
 	cursor: pointer;
 }
-body#gallery_page .other_room ul.nav-tabs > li.active a{
+.gallery_page .other_room ul.nav-tabs > li.active a{
 	border: 2px solid #9d9d9d;
 }
-body#gallery_page .single_room_wrapper .dif_room_media img {
+.gallery_page .single_room_wrapper .dif_room_media img {
 	height: 213px;
 	width: auto;
 }
-body#gallery_page .lslide.active > img {
+.gallery_page .lslide.active > img {
   height: 100%;
   width: 100%;
 }
