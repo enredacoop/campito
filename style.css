@@ -342,25 +342,25 @@ body#home_two .special_offer_main {
 5.					start welcome area CSS
 -----------------------------------------------------------*/
 
-body#home_one .welcome .section_description, body#accomodation_page .welcome .section_description {
+body#home_one .welcome .section_description,body#atlantico_sur_page .welcome .section_description, body#accomodation_page .welcome .section_description {
   padding: 0 20% 43px;
   text-align: center;
 }
-body#home_one .welcome .section_description p, body#accomodation_page .welcome .section_description p {
+body#home_one .welcome .section_description p, body#atlantico_sur_page .welcome .section_description p,body#accomodation_page .welcome .section_description p {
 	font-size: 16px;
 	font-family: 'Karla', sans-serif;
 }
-body#home_one .welcome .room_media, body#accomodation_page .welcome .room_media, .accomodation_single_room .room_media, body#room_detail_page .welcome .room_media {
+body#home_one .welcome .room_media, body#atlantico_sur_page .welcome .room_media, body#accomodation_page .welcome .room_media, .accomodation_single_room .room_media, body#room_detail_page .welcome .room_media {
   margin-bottom: 28px;
   text-align: center;
 }
-body#home_one .single_room_wrapper .uk-overlay, body#accomodation_page .single_room_wrapper .uk-overlay {
+body#home_one .single_room_wrapper .uk-overlay, body#atlantico_sur_page .single_room_wrapper .uk-overlay,body#accomodation_page .single_room_wrapper .uk-overlay {
   overflow: visible;
   -webkit-transition: 0.7s;
   -o-transition: 0.7s;
   transition: 0.7s;
 }
-body#home_one .single_wrapper_details, body#accomodation_page .single_wrapper_details {
+body#home_one .single_wrapper_details, body#atlantico_sur_page .single_wrapper_details, body#accomodation_page .single_wrapper_details {
 	background: #f7c411 none repeat scroll 0 0;
 	height: 100%;
 	width: 100%;
@@ -370,36 +370,36 @@ body#home_one .single_wrapper_details, body#accomodation_page .single_wrapper_de
 	-webkit-display: block;
 	padding: 13px;
 }
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-   body#home_one .single_wrapper_details, body#accomodation_page .single_wrapper_details {
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+   body#home_one .single_wrapper_details, body#accomodation_page .single_wrapper_details, body#atlantico_sur_page .single_wrapper_details {
     display: none;
   }
 } 
-body#home_one .single_room_wrapper .uk-overlay:hover .single_wrapper_details, body#accomodation_page .single_room_wrapper .uk-overlay:hover .single_wrapper_details {
+body#home_one .single_room_wrapper .uk-overlay:hover .single_wrapper_details, body#atlantico_sur_page .single_room_wrapper .uk-overlay:hover .single_wrapper_details, body#accomodation_page .single_room_wrapper .uk-overlay:hover .single_wrapper_details {
 	display: block;
 	-webkit-transition: 0.7s;
 	-o-transition: 0.7s;
 	transition: 0.7s;
 }
-body#home_one .single_room_wrapper .uk-overlay:hover .left_room_title a.btn, body#accomodation_page .single_room_wrapper .uk-overlay:hover .left_room_title a.btn{
+body#home_one .single_room_wrapper .uk-overlay:hover .left_room_title a.btn, body#atlantico_sur_page .single_room_wrapper .uk-overlay:hover .left_room_title a.btn, body#accomodation_page .single_room_wrapper .uk-overlay:hover .left_room_title a.btn{
 	background: #63c2ea none repeat scroll 0 0;
 	color: #fff;
 }
-body#home_one .single_wrapper_details .single_wrapper_details_pad, body#accomodation_page .single_wrapper_details .single_wrapper_details_pad{
+body#home_one .single_wrapper_details .single_wrapper_details_pad, body#atlantico_sur_page .single_wrapper_details .single_wrapper_details_pad, body#accomodation_page .single_wrapper_details .single_wrapper_details_pad{
 	height: 100%;
 	width: 100%;
 }
-body#home_one .single_wrapper_details h5, body#accomodation_page .single_wrapper_details h5 {
+body#home_one .single_wrapper_details h5,body#atlantico_sur_page .single_wrapper_details h5, body#accomodation_page .single_wrapper_details h5 {
   color: #000;
   font-size: 18px;
   font-family: "Lora",serif;
   text-transform: none;
 }
-body#home_one .single_wrapper_details p, body#accomodation_page .single_wrapper_details p{
+body#home_one .single_wrapper_details p, body#atlantico_sur_page .single_wrapper_details p,body#accomodation_page .single_wrapper_details p{
 	color: #444;
 	font-size: 15px;
 }
-body#home_one .single_room_wrapper, body#accomodation_page .single_room_wrapper{
+body#home_one .single_room_wrapper, body#atlantico_sur_page .single_room_wrapper,body#accomodation_page .single_room_wrapper{
   overflow: hidden;
 }
 body#home_one .single_wrapper_details .single_room_cost p, body#accomodation_page .single_wrapper_details .single_room_cost p{
