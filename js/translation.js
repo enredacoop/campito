@@ -1,15 +1,13 @@
 $(document).ready(function(){
-  /*language_complete = navigator.language.split("-");
-	*/
-
-  i18n.init({ preload: ['en', 'es'], debug: true, detectLngQS: 't' }, function() {
+  
+  i18n.init({ preload: ['en', 'es'], debug: true, detectLngQS: 't', fallbackLng:'es' }, function() {
       // save to use translation function as resources are fetched
-      $('.nav').i18n();
-      $('.container').i18n();
-      $('.text').i18n();
-      $('.info').i18n();
-       $('.main_slider_area').i18n();
-   
-          
+     $('[data-i18n]').i18n();          
   });
+
+	 $('.lang').click(function () {
+        var lang = $(this).attr('data-lang');
+        i18n.setLng(lang, function() { $('[data-i18n]').i18n(); });
+    });
+
 });
