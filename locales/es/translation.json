@@ -9,15 +9,18 @@
     "res": "Restaurante"
   },  
   "slides": {
-  	"explore": "Mas info",
-  	"rural": "Viviendas rurales"
+  	"explore": "Más información",
+  	"rural": "Viviendas rurales",
+    "restaurant": "Restaurante"
   },
   "welcome": {
+    "description_generic": "Bienvenidos a Conil sin Fronteras, Hostal-Restaurante Campito es una empresa joven y de tradición familiar, somos la cuarta generación de una familia dedicada a la hostelería y a la oferta turística,  trabajo que se remonta a más de 5 décadas de historia. Hoy en día somos una empresa con nombre consolidado, valor que lleva tras de si confianza, calidad y trabajo bien hecho. Ofertamos un hostal en pleno casco antiguo de nuestro pueblo, alojamientos rurales a un paso de la playa  y un restaurante de platos a la brasa.",
   	"welcome_camp": "Bienvenidos a Hostal Campito",
   	"description_camp": "Campito es un edificio de nueva construcción en el centro histórico, a sólo cuatro minutos a pie de la playa. Con un diseño moderno y funcional, ofrecemos a nuestros clientes una buena localización.",
   	"welcome_atl": "Bienvenidos a Vivienda Rural Atlántico Sur",
   	"description_atl": "Un espacio singular cerca del puerto pesquero y de los pinares de Roche. El lugar idóneo para conocer la zona en familia. Cada espacio es independiente y garantiza su relajación y privacidad. El estilo de las viviendas evoca a los cortijos antiguos andaluces, con techos de tejas a dos aguas,casas de una sola planta con techos altos y un porche que enlaza casa y jardín." ,
-  	"welcome_res": "Bienvenidos a Restaurante Campito" 
+  	"welcome_res": "Bienvenidos a Restaurante Campito",
+    "description_res": "En nuestro restaurante podrá encontrar una gran oferta de platos, mezclando lo mejor de esta localidad rica en mar y huerta, un lugar donde podrá saborear un buen plato de atún y un buen vino de las viñas Gaditanas. Todos nuestros platos se hacen al horno de carbón, el cual le da un toque especial a nuestras carnes y pescados."
   },
   "rooms": {
   	"night": "noche",
@@ -41,7 +44,9 @@
   	"res_info": "El Restaurante Campito se localiza en la planta baja del establecimiento, tiene mesas interiores y exteriores en terraza, todos los productos se cocinan en un horno Josper de carbón.",
   	"park": "Parking",
   	"park_info": "El Hostal Campito dispone de plazas de garaje a 3 minutos andando del establecimiento, el precio es de 10€ al dia, para reservar hay que solicitarlo previamente.",
-  	"hours": "Horario: 19:00-22:00",
+  	"solarium": "Solarium",
+    "solarium_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "hours": "Horario: 19:00-22:00",
   	"charge": "Precio: 10€"
   },
   "contact": {
@@ -49,13 +54,26 @@
   	"email": "Correo electrónico"
   },
   "hostal": {
+    "name": "Hostal Campito",
     "roomlist": "Habitaciones en el hostal",
-    "roomdesc": "Nuestras habitaciones"
-
+    "roomdesc": "Nuestras habitaciones",
+    "description": "El Hostal Campito es un edificio de nueva construcción, en pleno centro histórico a tan solo 4 minutos andando de la playa. Con un diseño moderno y funcional,  Ofrece a nuestros clientes un punto de referencia por su buena localización,  apostamos por su confort y por su descanso y  sobre todo usted podrá encontrar un gran trato humano por parte de nuestro personal.  Disponemos de 3 tipos de habitaciones, aunque todas las habitaciones disponen de cuarto de baño con secador de pelo, televisión de pantalla plana, conexion wi-fi a internet en todo el hostal, caja fuerte y aire acondicionado,  Dependiendo del nivel en el que nos encontremos podremos disfrutar de un restaurante en planta baja, salón en la segunda, o bien un solárium con vistas al mar donde se sirven los desayunos.",
+    "views": "Vistas",
+    "solarium": "Solarium",
+    "rooms": "Habitaciones"
   },
   "vivienda": {
-    "description_atl": "La localización de las viviendas rurales es perfecta si usted busca un ambiente más relajado, fuera del núcleo de la población, pues se sitúan cerca de las calitas de Roche y sus bosques de pinares, del puerto pesquero y por supuesto de los acantilados de Puntalejos. Todos estos enclaves poseen un gran valor medioambiental y paisajístico,siendo lugares de imprescindible visita. En nuestra finca encontrará cuatro unidades de alojamientos completamente independientes las unas de las otras. La distribución de la casa se compone de un gran salón principal, tres habitaciones y baño. Cada cocina está completamente equipada con el material y los electrodomésticos necesarios para que usted se sienta como en casa. Disponemos de televisión satélite y mobiliario de terraza , jardín y de interior. Cada parcela dispone de un cortijo con su propio jardín con piscina, barbacoa y zona de aparcamientos. Cada casa es independiente y garantiza privacidad y relajación."
-
+    "name": "Vivienda Rural Atlántico Sur",
+    "description_atl": "Si usted se plantea unas vacaciones mas distendidas y relajadas, podemos ofrecerles alojamiento en nuestras casas rurales, situadas en plena naturaleza  rodeado de pinares, usted podrá saborear cada mañana el olor salado  de la mar que duerme a sus espaldas,  nuestros cortijos disponen cada uno de un jardín privado, con piscina, barbacoa, y zona de aparcamientos, un lugar lleno de frutales, un sitio de descanso a un paseo de las mejores vistas de nuestro pueblo, la cala y los acantilados del “puntalejos”.  Disponemos de cortijos para 6 y 8 personas.  Cada casa dispone de 1 piscina independiente, barbacoa, zona ajardinada, aparcamientos, televisión por satelite, cocina totalmente equipada etc…"
+  },
+  "footer": {
+    "desc": "En el centro histórico, a sólo cuatro minutos a pie de la playa. Con un diseño moderno y funcional, ofrecemos a nuestros clientes una buena localización y servicios.",
+    "quicklinks": "Enlaces",
+    "contact": "Contacto"
+  },
+  "restaurant": {
+    "name": "Restaurante Campito",
+    "contact_email": "Envíanos un correo electrónico",
+    "contact_info": "Información de contacto"
   }
-
 }

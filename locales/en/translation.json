@@ -3,8 +3,77 @@
     "name": "i18next"
   },
   "nav": {
-    "home": "Home",
-    "hostal": "Page One",
-    "page2": "Page Two"
+    "home": "Index",
+    "hostal": "Hostal",
+    "house": "Rural Housing",
+    "res": "Restaurant"
+  },  
+  "slides": {
+  	"explore": "More info",
+  	"rural": "Rural Housing",
+    "restaurant": "Restaurant"
+  },
+  "welcome": {
+    "description_generic": "Welcome to Conil Without Borders, Hostal-Restaurante Campito is a young and family tradition company, we are the fourth generation of a family dedicated to the hospitality and tourism, work that dates back to more than 5 decades of history. Today we are a company with consolidated name, value that leads behind him trust, quality and work well done. We offer a hostel in the old part of our town, rural accommodation just steps from the beach and a restaurant serving grilled dishes.",
+  	"welcome_camp": "Welcome to Hostal Campito",
+  	"description_camp": "Campito is a new building in the historic center, just four minutes walk from the beach. With a modern and functional design, we offer our customers a good location.",
+  	"welcome_atl": "Welcome to Rural Housing Atlántico Sur",
+  	"description_atl": "A unique space near the fishing port and the pine forests of Roche. The ideal to know the area in family. Each space is independent and ensures relaxation and privacy. The style of the houses evokes the old Andalusian farmhouses, with tiled roofs gabled houses on one level with high ceilings and a porch that connects home and garden.",
+  	"welcome_res": "Welcome to Restaurant Campito",
+    "description_res": "In our restaurant you will find a wide range of dishes, blending the best of this town rich in sea and garden, a place where you can enjoy a good plate of tuna and a good wine from the vineyards Gaditanas. All our dishes baked coal, which gives a special touch to our meat and fish are made."
+  },
+  "rooms": {
+  	"night": "night",
+  	"book": "Book"
+  },
+  "rooms_names": {
+  	"camp_standard": "Standard room",
+  	"camp_comfort": "Comfort room",
+  	"camp_quadruple": "Quadruple room",
+  	"camp_single": "Single room",
+  	"camp_superior": "Superior room",
+  	"camp_triple": "Triple room",
+  	"rural_6": "Rural housing 6 people",
+  	"rural_2": "Rural housing 2 people",
+  	"rural_4": "Rural housing 4 people",
+  	"rural_8": "Rural housing 8 people"
+  },
+  "services": {
+  	"serv": "Additional services Hostal Campito",
+  	"res": "Restaurant",
+  	"res_info": "The Campito Restaurant is located on the ground floor of the establishment, has indoor and outdoor terrace tables, all products are cooked in a coal oven Josper.",
+  	"park": "Parking",
+  	"park_info": "Hostal Campito has parking spaces 3 minutes walk from the accommodation price is 10 € per day, booking must first request.",
+  	"solarium": "Solarium",
+    "solarium_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "hours": "Schedule: 19:00-22:00",
+  	"charge": "Price: 10€"
+  },
+  "contact": {
+  	"phone": "Phone",
+  	"email": "Email"
+  },
+  "hostal": {
+    "name": "Hostal Campito",
+    "roomlist": "Rooms at the hostel",
+    "roomdesc": "Our rooms",
+    "description": "Hostal Campito is a new building in the historic center just 4 minutes walk from the beach. With a modern and functional design offers our customers a reference point for its good location, we focus on your comfort and rest and above all you will find a great humane treatment by our staff. We have 3 types of rooms, but all rooms have bathroom with hairdryer, flat screen TV, wi-fi internet throughout the hostel, safe and air conditioning, depending on the level at which we we find can enjoy a restaurant on the ground floor, lounge on the second, or a terrace overlooking the sea where breakfast is served.",
+    "views": "Views",
+    "solarium": "Solarium",
+    "rooms": "Rooms"
+  },
+  "vivienda": {
+    "name": "Rural Housing Atlántico Sur",
+    "description_atl": "If you a more relaxed and peaceful holiday arises, we can offer accommodation in our cottages, located in the countryside surrounded by pine trees, you can enjoy every morning the salty smell of the sea sleeping on their backs, our cottages have each a private garden with pool, barbecue, parking area and a place full of fruit, a resting within walking distance of the best views of our people, the cove and the cliffs of Puntalejos. We have cottages for 6 and 8 people. Each house has 1 independent pool, barbecue, garden, parking, satellite TV, fully equipped kitchen etc ..."
+  },
+  "footer": {
+    "desc": "In the historic center, just four minutes walk from the beach. With a modern and functional design, we offer our customers a good location and services.",
+    "quicklinks": "Links",
+    "contact": "Contact"
+  },
+  "restaurant": {
+    "name": "Restaurant Campito",
+    "contact_email": "Email us",
+    "contact_info": "Contact information"
   }
 }

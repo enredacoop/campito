@@ -871,6 +871,11 @@ h6{
   text-align: center;
   position: relative;
 }
+.breadcrumb_main_area2 {
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
 .breadcrumb_main {
   padding: 170px 0 58px;
   position: relative;

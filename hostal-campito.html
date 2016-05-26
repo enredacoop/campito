@@ -56,6 +56,7 @@
             <!-- start main header -->
             <div class="main_header_area">
                 <div class="container">
+                    <div class="floatright"><a href="?t=es">es</a>/<a href="?t=en">en</a></div>
                     <!-- start mainmenu & logo -->
                     <div class="mainmenu">
                         <div id="nav">
@@ -76,10 +77,10 @@
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">               
                                   <ul class="nav navbar-nav">
-                                    <li><a href="index.html">Home</a></li>        
-                                    <li><a href="#">Hostal</a></li>        
-                                    <li><a href="vivienda-rural-atlantico-sur.html">Rural Housing</a></li>
-                                    <li><a href="restaurante-campito.html">Restaurant</a></li>        
+                                    <li><a href="index.html" data-i18n="nav.home"></a></li>        
+                                    <li><a href="#" data-i18n="nav.hostal"></a></li>        
+                                    <li><a href="vivienda-rural-atlantico-sur.html" data-i18n="nav.house"></a></li>
+                                    <li><a href="restaurante-campito.html" data-i18n="nav.res"></a></li>        
                                   </ul>
                                      <div class="emergency_number">
                                       <a href="tel:956440708"><img src="img/call-icon.png" alt="">956 440 708</a>
@@ -116,9 +117,7 @@
 
 
                         <div class="facilities_top_para">
-                        <p>
-                            Además del confort y de las mejores condiciones para su descanso, aquí encontrará un trato cercano y familiar por parte de nuestro personal. Disponemos de tres tipos de habitación, todas con cuarto de baño con secador de pelo, televisor con pantalla plana, wifi, caja fuerte y aire acondicionado. En la planta baja hay un restaurante donde se mezclan el mar y la huerta, el atún y el vino de las viñas gaditanas. Todos los platos se hacen al horno de carbón. Disponemos de un solárium con vistas al mar donde además se sirven los desayunos.
-                        </p>
+                        <p data-i18n="hostal.description"></p>
                     </div>
 
 
@@ -140,9 +139,9 @@
                                 <div class="section_title">
                                     <ul class="nav nav-tabs margin-bottom-60" role="tablist">
                                         <li role="presentation" class="active"><a href="#all" aria-controls="all" role="tab" data-toggle="tab">Hostal</a></li>
-                                        <li role="presentation"><a href="#vistas" aria-controls="vistas" role="tab" data-toggle="tab">Vistas</a></li>
-                                        <li role="presentation"><a href="#solar" aria-controls="solar" role="tab" data-toggle="tab">Solarium</a></li>
-                                        <li role="presentation"><a href="#rooms" aria-controls="rooms" role="tab" data-toggle="tab">Rooms</a></li>
+                                        <li role="presentation"><a href="#vistas" aria-controls="vistas" role="tab" data-toggle="tab" data-i18n="hostal.views"></a></li>
+                                        <li role="presentation"><a href="#solar" aria-controls="solar" role="tab" data-toggle="tab" data-i18n="hostal.solarium"></a></li>
+                                        <li role="presentation"><a href="#rooms" aria-controls="rooms" role="tab" data-toggle="tab" data-i18n="hostal.rooms"></a></li>
 
                                     </ul>
                                 </div>
@@ -739,27 +738,20 @@
                 <div class="contact_us clearfix">
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                         <div class="call clearfix">
-                            <h6>Phone</h6>
+                            <h6 data-i18n="contact.phone"></h6>
                             <p>956 440 708</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                         <div class="email_us clearfix">
-                            <h6>Email</h6>
-                            <p>info@hostalcampito.com</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                        <div class="email_us clearfix">
-                            <h6>Email</h6>
+                            <h6 data-i18n="contact.email"></h6>
                             <p>info@hostalcampito.com</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                         <div class="social_icons clearfix">
                             <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com/hostalbar.campito"><i class="fa fa-facebook"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -778,7 +770,7 @@
                                 <div class="footer_logo">
                                     <a href="#"><img src="img/footer-logo-one.png" alt=""></a>
                                 </div>
-                                <p>En el centro histórico, a sólo cuatro minutos a pie de la playa. Con un diseño moderno y funcional, ofrecemos a nuestros clientes una buena localización y servicios.</p>
+                                <p data-i18n="footer.desc"></p>
                                 <ul>
                                     <li>
                                         <p><i class="fa fa-map-marker"></i>
@@ -791,7 +783,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-4">
                             <div class="row">
                                 <div class="footer_widget clearfix">
-                                    <h5 class="padding-left-15">Quick Links</h5>
+                                    <h5 class="padding-left-15" data-i18n="footer.quicklinks"></h5>
                                     <div class="col-lg-6 col-md-6 col-sm-6">
                                         <ul>
                                             <li><a href="https://conilhospeda.com/hostal-campito/">Conil Hospeda</a></li>
@@ -805,16 +797,15 @@
                                             <li><a href="http://www.conildelafrontera.es/">Conil de la Frontera</a></li>
                                             <li><a href="#">Surf</a></li>
                                             <li><a href="#"></a></li>
-                                            <li><a href="contact.html">Contacto</a></li>
+                                            <li><a href="contact.html" data-i18n="footer.contact"></a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                                                <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="col-lg-4 col-md-4 col-sm-4">
                             <div class="row">
-                                <div class="footer_widget clearfix">
-                                   
+                                <div class="footer_widget clearfix">     
                                         <div id="TA_selfserveprop658" class="TA_selfserveprop">
                                         <ul id="IGZ9sq" class="TA_links lbuDHBZkt4">
                                         <li id="0knUuKlE" class="ZE1BmlMMwUP">
@@ -823,11 +814,9 @@
                                         </ul>
                                         </div>
                                         <script src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=658&amp;locationId=1113664&amp;lang=es&amp;rating=true&amp;nreviews=0&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=false&amp;border=true&amp;display_version=2"></script>
-
                                 </div>
                             </div>
-                        </div>
-                        
+                        </div>          
                     </div>
                     <div class="row">
                         <div class="container">
@@ -840,9 +829,6 @@
             </div>
         </footer>
         <!-- end footer -->
-        
-		
-		
 		
         <!-- jquery library -->
         <script src="js/vendor/jquery-1.11.2.min.js"></script>

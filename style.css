@@ -361,7 +361,7 @@ body#home_one .single_room_wrapper .uk-overlay, body#atlantico_sur_page .single_
   transition: 0.7s;
 }
 body#home_one .single_wrapper_details, body#atlantico_sur_page .single_wrapper_details, body#accomodation_page .single_wrapper_details {
-	background: #f7c411 none repeat scroll 0 0;
+	background: #3ac4fa none repeat scroll 0 0;
 	height: 100%;
 	width: 100%;
 	-webkit-transition: 0.7s;
@@ -624,24 +624,18 @@ body#home_one .nav-tabs > li.active > a, body#home_one .nav-tabs > li.active > a
 -----------------------------------------------------------*/
 
 
-body#home_two .hotel_showcase .owl-carousel .owl-item img{
+body#home_one .hotel_showcase .owl-carousel .owl-item img{
 	-webkit-filter: grayscale(100%);
-	-o-filter: grayscale(100%);
-	filter: grayscale(100%);
 	-webkit-transition: .5s;
 	-o-transition: .5s;
 	transition: .5s;
 }
-body#home_two .hotel_showcase .owl-carousel .owl-item img:hover{
-	-webkit-filter: grayscale(1%);
-	-o-filter: grayscale(1%);
-	filter: grayscale(1%);
-}
-body#home_two .hotel_showcase .owl-carousel .owl-item a{
+
+body#home_one .hotel_showcase .owl-carousel .owl-item a{
 	display: block;
 	position: relative;
 }
-body#home_two .hotel_showcase .owl-carousel .owl-item a i {
+body#home_one .hotel_showcase .owl-carousel .owl-item a i {
 	background: #fff none repeat scroll 0 0;
 	border-radius: 50%;
 	height: 35px;
@@ -657,7 +651,7 @@ body#home_two .hotel_showcase .owl-carousel .owl-item a i {
 	transition: 0.6s;
 	color: #131e2a;
 }
-body#home_two .hotel_showcase .owl-carousel .owl-item a:hover i{
+body#home_one .hotel_showcase .owl-carousel .owl-item a:hover i{
 	top: calc(50% - 18px);
 }
 
@@ -992,6 +986,10 @@ body#about_us_page .single_staff .social_icons ul li a i, body#staff_page .singl
 
 body#accomodation_page .breadcrumb_main_area, body#contact_us_page .breadcrumb_main_area, body#room_detail_page .breadcrumb_main_area{
 	background: url(img/accomodation-breadcrumb-one.jpg) no-repeat center center / cover #000000;
+	position: relative;
+}
+body#accomodation_page .breadcrumb_main_area2, body#contact_us_page .breadcrumb_main_area, body#room_detail_page .breadcrumb_main_area{
+	background: url(img/rev-slider/slider-two.jpg) no-repeat center center / cover #000000;
 	position: relative;
 }
 body#accomodation_page .range_slider span, body#accomodation_page .range_slider label{
@@ -1936,6 +1934,9 @@ body#campito_page .breadcrumb_main_area, body#staff_page .breadcrumb_main_area{
 body#atlantico_sur_page .breadcrumb_main_area, body#staff_page .breadcrumb_main_area{
 	background: url(img/rev-slider/slider-two.jpg) no-repeat center center / cover #000000;
 	position: relative;
+}
+body#atlantico_sur_page .accomodation_single_room ul.pagination li a:hover, .accomodation_single_room ul.pagination li a:active, .accomodation_single_room ul.pagination li a:focus{
+	background: none;
 }
 
 /*----------------------------------------------------------
