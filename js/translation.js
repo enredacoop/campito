@@ -11,10 +11,10 @@ $(document).ready(function(){
     i18n.setLng(lang, function() { $('[data-i18n]').i18n(); });
     if (lang == 'es') {
       lang = 'en';
-      name = 'English';
+      name = '<i class="fa fa-flag" aria-hidden="true"></i> English';
     } else {
       lang = 'es';
-      name = 'Spanish';
+      name = '<i class="fa fa-flag" aria-hidden="true"></i> Español';
     }
     $(this).attr('data-lang', lang);
     $(this).html(name);
