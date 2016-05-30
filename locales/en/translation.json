@@ -61,7 +61,8 @@
     "description": "Hostal Campito is a new building in the historic center just 4 minutes walk from the beach. With a modern and functional design offers our customers a reference point for its good location, we focus on your comfort and rest and above all you will find a great humane treatment by our staff. We have 3 types of rooms, but all rooms have bathroom with hairdryer, flat screen TV, wi-fi internet throughout the hostel, safe and air conditioning, depending on the level at which we we find can enjoy a restaurant on the ground floor, lounge on the second, or a terrace overlooking the sea where breakfast is served.",
     "views": "Views",
     "solarium": "Solarium",
-    "rooms": "Rooms"
+    "rooms": "Rooms",
+    "num_JA": "Número de registro en la Junta de Andalucía"
   },
   "vivienda": {
     "name": "Rural Housing Atlántico Sur",

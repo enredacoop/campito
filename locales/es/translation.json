@@ -61,7 +61,8 @@
     "description": "El Hostal Campito es un edificio de nueva construcción, en pleno centro histórico a tan solo 4 minutos andando de la playa. Con un diseño moderno y funcional,  Ofrece a nuestros clientes un punto de referencia por su buena localización,  apostamos por su confort y por su descanso y  sobre todo usted podrá encontrar un gran trato humano por parte de nuestro personal.  Disponemos de 3 tipos de habitaciones, aunque todas las habitaciones disponen de cuarto de baño con secador de pelo, televisión de pantalla plana, conexion wi-fi a internet en todo el hostal, caja fuerte y aire acondicionado,  Dependiendo del nivel en el que nos encontremos podremos disfrutar de un restaurante en planta baja, salón en la segunda, o bien un solárium con vistas al mar donde se sirven los desayunos.",
     "views": "Vistas",
     "solarium": "Solarium",
-    "rooms": "Habitaciones"
+    "rooms": "Habitaciones",
+    "num_JA": "Número de registro en la Junta de Andalucía"
   },
   "vivienda": {
     "name": "Vivienda Rural Atlántico Sur",
