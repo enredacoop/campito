@@ -57,6 +57,13 @@
         ga('send', 'pageview');
 
         </script>
+
+        <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script type="text/javascript">
+        (function(){
+        emailjs.init("user_6wXczodfTId3Kr33BbZ1D");
+        })();
+        </script>
     </head>
     <body id="restaurante_campito_page">
 
@@ -154,7 +161,7 @@
                                 <div class="section_title margin-bottom-40">
                                     <h4 data-i18n="restaurant.contact_email"></h4>
                                 </div>
-                                <form action="contact_process.php" method="post">
+                                <form onsubmit="emailjs.sendForm('default_service', 'template_DILttHu2', this); return false;" method="post">
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6">
                                             <input type="text" placeholder="First Name *" name="fname" required>
@@ -219,7 +226,7 @@
         <!-- start map -->
         <div class="contact_google_map_area margin-bottom-75">
             <div class="container">
-                <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJE-pW1Bg4DA0RJmSCPvSfKU4&key=AIzaSyDX4Quzq8aS33dni13QDFkDL85yL1TZZhs" allowfullscreen></iframe>
+                <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJE-pW1Bg4DA0RJmSCPvSfKU4&key=AIzaSyDX4Quzq8aS33dni13QDFkDL85yL1TZZhs&language=es" allowfullscreen></iframe>
             </div>
         </div>
         <!-- end map -->
@@ -369,38 +376,11 @@
         <script src="js/translation.js"></script>
         <script src="js/main.js"></script>
 		
-        <!-- Google maps API -->
-        <script src="http://maps.googleapis.com/maps/api/js"></script>
-        <script>
-
-            var myCenter=new google.maps.LatLng(36.276231, -6.086556);
-            
-            function initialize()
-            {
-            var mapProp = {
-              center:myCenter,
-              zoom:15,
-                scrollwheel: false,
-              mapTypeId:google.maps.MapTypeId.ROADMAP
-              };
-
-            var map=new google.maps.Map(document.getElementById("contactgoogleMap"),mapProp);
-
-            var marker=new google.maps.Marker({
-              position:myCenter,
-              animation:google.maps.Animation.BOUNCE,
-              icon:'img/google-pin-one.png'
-            });
-            
-            var infowindow = new google.maps.InfoWindow({
-              content:"united-states"
-            });
-
-            marker.setMap(map);
-            }
-
-            google.maps.event.addDomListener(window, 'load', initialize);        
-
+        <script languague="javascript">
+        function mostrar() {
+            div = document.getElementById('flotante');
+            div.style.display = '';
+        }
         </script>
 
     </body>

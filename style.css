@@ -1049,7 +1049,6 @@ body#accomodation_page .range_slider .range input{
 	margin-bottom: 30px;
 	outline: none;
 	width: 100%;
-	text-transform: uppercase;
 }
 .send_mail a.btn{
 	text-transform: none;
