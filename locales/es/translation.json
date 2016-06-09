@@ -39,6 +39,18 @@
   	"rural_4": "Vivienda rural 4 personas",
   	"rural_8": "Vivienda rural 8 personas"
   },
+  "rooms_services": {
+    "camp_standard": "secador de pelo, aire acondicionado, sistema de calefacción, ducha, baño privado, caja de seguridad, tv, canales por satelite, wifi",
+    "camp_comfort": "secador de pelo, aire acondicionado, sistema de calefacción, ducha, baño privado, caja de seguridad, tv, canales por satelite, wifi",
+    "camp_quadruple": "secador de pelo, aire acondicionado, sistema de calefacción, ducha, baño privado, caja de seguridad, tv, canales por satelite, wifi",
+    "camp_single": "secador de pelo, aire acondicionado, baño privado, caja de seguridad, tv, canales por satelite, wifi",
+    "camp_superior": "secador de pelo, aire acondicionado, sistema de calefacción, ducha, baño privado, caja de seguridad, tv, canales por satelite, wifi",
+    "camp_triple": "secador de pelo, aire acondicionado, sistema de calefacción, ducha, baño privado, caja de seguridad, tv, canales por satelite, wifi",
+    "rural_2": "ducha, bañera, baño privado, tv, canales por satelite, tostadora, horno, mezclador, tabla de planchar, utensilios de cocina, microondas, mosquitera, cafetera, parilla, jardín, lavadora, terraza, sofá, wifi ",
+    "rural_4": "ducha, bañera, baño privado, tv, canales por satelite, tostadora, horno, mezclador, tabla de planchar, utensilios de cocina, microondas, mosquitera, cafetera, parilla, jardín, lavadora, terraza, vistas a la playa, sofá, wifi ",
+    "rural_6": "ducha, bañera, baño privado, tv, canales por satelite, tostadora, horno, mezclador, tabla de planchar, utensilios de cocina, microondas, mosquitera, cafetera, parilla, jardín, lavadora, balcón, vistas a la playa, sofá, wifi",
+    "rural_8": "ducha, bañera, baño privado, tv, canales por satelite, tostadora, horno, mezclador, tabla de planchar, utensilios de cocina, microondas, chimenea, mosquitera, cafetera, parilla, jardín, lavadora, terraza, sofá, wifi "
+  },
   "services": {
   	"serv": "Servicios adicionales Hostal Campito",
   	"res": "Restaurante",
@@ -47,8 +59,11 @@
   	"park_info": "El Hostal Campito dispone de plazas de garaje a 3 minutos andando del establecimiento, el precio es de 10€ al dia, para reservar hay que solicitarlo previamente.",
   	"solarium": "Solarium",
     "solarium_info": "Solárium con vistas al mar, durante la mañana se utiliza para los desayunos buffet , el tiempo restante se utiliza a gusto del cliente.",
-    "hours": "Horario: 19:00-22:00",
-  	"charge": "Precio: 10€"
+    "park_hours": "Salida: 12:00",
+  	"park_charge": "Precio: 10€",
+    "res_hours": "Horario: 20:00-24:00",
+    "res_charge": "Precio: Según carta",
+    "solarium_hours": "Horario: 8:30-24:00"
   },
   "contact": {
   	"phone": "Teléfono",
@@ -66,7 +81,9 @@
   },
   "vivienda": {
     "name": "Vivienda Rural Atlántico Sur",
-    "description_atl": "Si usted se plantea unas vacaciones mas distendidas y relajadas, podemos ofrecerles alojamiento en nuestras casas rurales, situadas en plena naturaleza  rodeado de pinares, usted podrá saborear cada mañana el olor salado  de la mar que duerme a sus espaldas,  nuestros cortijos disponen cada uno de un jardín privado, con piscina, barbacoa, y zona de aparcamientos, un lugar lleno de frutales, un sitio de descanso a un paseo de las mejores vistas de nuestro pueblo, la cala y los acantilados del “puntalejos”.  Disponemos de cortijos para 6 y 8 personas.  Cada casa dispone de 1 piscina independiente, barbacoa, zona ajardinada, aparcamientos, televisión por satelite, cocina totalmente equipada etc…"
+    "description_atl": "Si usted se plantea unas vacaciones mas distendidas y relajadas, podemos ofrecerles alojamiento en nuestras casas rurales, situadas en plena naturaleza  rodeado de pinares, usted podrá saborear cada mañana el olor salado  de la mar que duerme a sus espaldas,  nuestros cortijos disponen cada uno de un jardín privado, con piscina, barbacoa, y zona de aparcamientos, un lugar lleno de frutales, un sitio de descanso a un paseo de las mejores vistas de nuestro pueblo, la cala y los acantilados del “puntalejos”.  Disponemos de cortijos para 6 y 8 personas.  Cada casa dispone de 1 piscina independiente, barbacoa, zona ajardinada, aparcamientos, televisión por satelite, cocina totalmente equipada etc…",
+    "rurallist": "Viviendas rurales",
+    "ruraldesc": "Nuestas viviendas rurales"
   },
   "footer": {
     "desc": "En el centro histórico, a sólo cuatro minutos a pie de la playa. Con un diseño moderno y funcional, ofrecemos a nuestros clientes una buena localización y servicios.",

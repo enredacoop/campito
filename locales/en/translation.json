@@ -39,6 +39,18 @@
   	"rural_4": "Rural housing 4 people",
   	"rural_8": "Rural housing 8 people"
   },
+  "rooms_services": {
+    "camp_standard": " hairdryer, airconditioner, heatingsystem, shower, privatebathroom, safedepositbox, tv, satellitechannels, wi-fi",
+    "camp_comfort": "hairdryer, airconditioner, heatingsystem, shower, privatebathroom, safedepositbox, tv, satellitechannels, wi-fi",
+    "camp_quadruple": " hairdryer, airconditioner, heatingsystem, shower, privatebathroom, safedepositbox, tv, satellitechannels, wi-fi",
+    "camp_single": "hairdryer, airconditioner, privatebathroom, safedepositbox, tv, satellitechannels, wi-fi",
+    "camp_superior": "hairdryer, airconditioner, heatingsystem, shower, privatebathroom, safedepositbox, tv, satellitechannels, wi-fi",
+    "camp_triple": "hairdryer, airconditioner, heatingsystem, shower, privatebathroom, safedepositbox, tv, satellitechannels, wi-fi",
+    "rural_2": "shower, bathhub, privatebathroom, tv, satellitechannels, toaster, oven, mixer, ironingboard, cookware, microwave, mosquito net, coffeemaker, barbecue, garden, washingmachine, terrace, couch, wi-fi",
+    "rural_4": " shower, bathhub, privatebathroom, tv, satellitechannels, toaster, oven, mixer, ironingboard, cookware, microwave, mosquito net, coffeemaker, barbecue, garden, washingmachine, terrace, beachviews, couch, wi-fi",
+    "rural_6": "shower, bathhub, privatebathroom, tv, satellitechannels, toaster, oven, mixer, ironingboard, cookware, microwave, mosquito net, coffeemaker, barbecue, garden, washingmachine, balcony, beachviews, couch, wi-fi",
+    "rural_8": "shower, bathhub, privatebathroom, tv, satellitechannels, toaster, oven, mixer, ironingboard, cookware, microwave, chimmey, mosquito net, coffeemaker, barbecue, garden, washingmachine, terrace, couch, wi-fi"
+  },
   "services": {
   	"serv": "Additional services Hostal Campito",
   	"res": "Restaurant",
@@ -47,8 +59,11 @@
   	"park_info": "Hostal Campito has parking spaces 3 minutes walk from the accommodation price is 10 € per day, booking must first request.",
   	"solarium": "Solarium",
     "solarium_info": "Terrace overlooking the sea in the morning is used for buffet breakfast, the remaining time is used to suit the client.",
-    "hours": "Schedule: 19:00-22:00",
-  	"charge": "Price: 10€"
+    "park_hours": "Departure time: 12:00",
+    "park_charge": "Price: 10€",
+    "res_hours": "Schedule: 20:00-24:00",
+    "res_charge": "Price: According to the restaurant's menu",
+    "solarium_hours": "Schedule: 8:30-24:00"
   },
   "contact": {
   	"phone": "Phone",
@@ -66,7 +81,9 @@
   },
   "vivienda": {
     "name": "Rural Housing Atlántico Sur",
-    "description_atl": "If you a more relaxed and peaceful holiday arises, we can offer accommodation in our cottages, located in the countryside surrounded by pine trees, you can enjoy every morning the salty smell of the sea sleeping on their backs, our cottages have each a private garden with pool, barbecue, parking area and a place full of fruit, a resting within walking distance of the best views of our people, the cove and the cliffs of Puntalejos. We have cottages for 6 and 8 people. Each house has 1 independent pool, barbecue, garden, parking, satellite TV, fully equipped kitchen etc ..."
+    "description_atl": "If you a more relaxed and peaceful holiday arises, we can offer accommodation in our cottages, located in the countryside surrounded by pine trees, you can enjoy every morning the salty smell of the sea sleeping on their backs, our cottages have each a private garden with pool, barbecue, parking area and a place full of fruit, a resting within walking distance of the best views of our people, the cove and the cliffs of Puntalejos. We have cottages for 6 and 8 people. Each house has 1 independent pool, barbecue, garden, parking, satellite TV, fully equipped kitchen etc ...",
+    "rurallist": "Rural housings",
+    "ruraldesc": "Our rural housings"
   },
   "footer": {
     "desc": "In the historic center, just four minutes walk from the beach. With a modern and functional design, we offer our customers a good location and services.",
