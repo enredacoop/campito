@@ -61,7 +61,7 @@ app.config([
       RESTAURANT: 'Restaurante',
       PARKING: 'Parking',
       RESTAURANT_INFO: 'El Restaurante Campito se localiza en la planta baja del establecimiento, tiene mesas interiores y exteriores en terraza, todos los productos se cocinan en un horno Josper de carbón.',
-      PARKING_INFO: 'El Hostal Campito dispone de plazas de garaje a 3 minutos andando del establecimiento, el precio es de 10€ al dia, para reservar hay que solicitarlo previamente.',
+      PARKING_INFO: 'El Hostal Campito dispone de plazas de garaje a 3 minutos andando del establecimiento, el precio es de 15€ al dia, para reservar hay que solicitarlo previamente.',
       SERVICE_HOURS: 'Horario de servicio',
       SERVICE_CHARGE: 'Recargo de servicio',
       INFO_ATLANTICO: 'Un espacio singular cerca del puerto pesquero y de los pinares de Roche. El lugar idóneo para conocer la zona en familia. Cada espacio es independiente y garantiza su relajación y privacidad. El estilo de las viviendas evoca a los cortijos antiguos andaluces, con techos de tejas a dos aguas, casas de una sola planta con techos altos y un porche que enlaza casa y jardín.',
